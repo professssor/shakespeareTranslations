@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+
+body {
+  background-image: url(background.jpg);
+  color: white;
+  font-family: "MedievalSharp", cursive;
+  margin-top: 5rem;
+}
+
+/* to have scrollbar functionality without seeing ugly sidebar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-container > h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* images styles */
+.heading-container > img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.io-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.io-container > * {
+  margin: 0.5rem;
+}
+
+footer {
+  text-align: center;
+}
+
+textarea {
+  font-size: 1rem;
+  font-family: "MedievalSharp", cursive;
+  color: white;
+
+  text-align: center;
+  padding: 1rem;
+  background-color: #6f4e37;
+  outline: none;
+  position: relative;
+  resize: none;
+
+  border-radius: 1rem;
+}
+
+textarea:nth-of-type(1):hover {
+  transition: all ease-in-out;
+  transition-duration: 400ms;
+  transform: scale(1.1, 1.1);
+  border: 2px #eee solid;
+}
+
+textarea::placeholder {
+  color: #ffcc99;
+  text-align: center;
+}
+
+/* code to change button appearnce */
+button {
+  font-family: "MedievalSharp", cursive;
+  font-size: 1rem;
+  height: 3rem;
+  width: 7rem;
+  border-radius: 1rem;
+  background-color: #ffcc99;
+  color: brown;
+}
+button:hover {
+  background-color: #a64b2a;
+  color: white;
+}
+footer {
+  color: #e3caa5;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 640px) {
+  .heading-container {
+    flex-direction: row;
+
+    margin: 0 2rem;
+    width: 40%;
+    margin: auto;
+  }
+
+  textarea {
+    width: 50%;
+  }
+}
