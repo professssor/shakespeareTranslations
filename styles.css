@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
 
 body {
-  background-image: url(background.jpg);
+  background-image: url(https://img.freepik.com/free-photo/vintage-textured-paper-background-vector_53876-103850.jpg?t=st=1657395658~exp=1657396258~hmac=92148fca341cb715e8841bf01a8bc24e8cabb3956183ed95c7b5ceca2d271b6f&w=900);
+  object-fit: cover;
   color: white;
   font-family: "MedievalSharp", cursive;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 /* to have scrollbar functionality without seeing ugly sidebar */
@@ -49,6 +50,7 @@ textarea {
   font-size: 1rem;
   font-family: "MedievalSharp", cursive;
   color: white;
+  margin: 0 1rem;
 
   text-align: center;
   padding: 1rem;
@@ -87,7 +89,7 @@ button:hover {
   color: white;
 }
 footer {
-  color: #e3caa5;
+  color: black;
   font-size: 1.4rem;
 }
 
